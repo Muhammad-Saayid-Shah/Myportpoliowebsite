@@ -1,0 +1,339 @@
+/* RESET - removes default margins/paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY STYLING */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fefae0ff;  /* Cornsilk - main background */
+    color: #5c4b3a;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* HEADER STYLING */
+header {
+    background: #faedcdff;  /* Papaya Whip */
+    color: #5c4b3a;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-bottom: 4px solid #d4a373ff;  /* Light Bronze accent */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #8b5e3c;
+}
+
+header p {
+    font-size: 1.2em;
+    opacity: 0.85;
+}
+
+/* NAVIGATION STYLING */
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #e9edc9ff;  /* Beige */
+    border-radius: 50px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+nav a {
+    color: #8b5e3c;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 18px;
+    transition: all 0.3s ease;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background: #d4a373ff;  /* Light Bronze */
+    color: white;
+    border-radius: 25px;
+}
+
+/* MAIN CONTENT */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* SECTION STYLING (cards) */
+section {
+    background: #e9edc9ff;  /* Beige */
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+    color: #8b5e3c;
+    margin-bottom: 15px;
+}
+
+h2 {
+    border-left: 4px solid #d4a373ff;  /* Light Bronze */
+    padding-left: 15px;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+/* LISTS */
+ul, ol {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+    color: #5c4b3a;
+}
+
+/* LINKS */
+a {
+    color: #d4a373ff;  /* Light Bronze */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8b5e3c;
+    text-decoration: underline;
+}
+
+/* IMAGES */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* FIGURE & FIGCAPTION */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #8b5e3c;
+    margin-top: 8px;
+}
+
+/* TABLE STYLING */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ccd5aeff;  /* Tea Green */
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #ccd5aeff;  /* Tea Green */
+    color: #5c4b3a;
+}
+
+/* FORM STYLING */
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+fieldset {
+    border: 2px solid #ccd5aeff;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    background: #d4a373ff;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccd5aeff;
+    border-radius: 8px;
+    background: #fefae0ff;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #d4a373ff;
+    box-shadow: 0 0 5px rgba(212, 163, 115, 0.3);
+}
+
+button {
+    background: #d4a373ff;  /* Light Bronze */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #b8895c;
+    transform: scale(1.02);
+}
+
+/* ASIDE (SIDEBAR) */
+aside {
+    background: #ccd5aeff;  /* Tea Green */
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+aside h3 {
+    color: #5c4b3a;
+    border-bottom: 2px solid #d4a373ff;
+    padding-bottom: 8px;
+}
+
+/* DETAILS & SUMMARY */
+details {
+    background: #fefae0ff;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 15px 0;
+    border: 1px solid #ccd5aeff;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    color: #d4a373ff;
+}
+
+summary:hover {
+    color: #8b5e3c;
+}
+
+/* ARTICLE STYLING */
+article {
+    background: #fefae0ff;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+/* PRODUCT GALLERY (for shop page) */
+.product-gallery {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-gallery img {
+    border-radius: 12px;
+    border: 3px solid #ccd5aeff;
+    transition: transform 0.3s;
+}
+
+.product-gallery img:hover {
+    transform: scale(1.05);
+    border-color: #d4a373ff;
+}
+
+/* FOOTER */
+footer {
+    background: #faedcdff;  /* Papaya Whip */
+    color: #5c4b3a;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 40px;
+    border-top: 4px solid #d4a373ff;
+}
+
+footer a {
+    color: #d4a373ff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #8b5e3c;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    nav a {
+        display: inline-block;
+        margin: 5px;
+        padding: 6px 12px;
+        font-size: 0.9em;
+    }
+    
+    section {
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-size: 1.8em;
+    }
+    
+    header p {
+        font-size: 1em;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
+    
+    .product-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    table {
+        font-size: 0.9em;
+    }
+    
+    th, td {
+        padding: 8px;
+    }
+}

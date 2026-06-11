@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Muhammad Saayid Shah">
+    <meta name="description" content="Contact Muhammad Saayid Shah - Software Engineering Student">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio - contact Us</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Muhammad Saayid Shah</h1>
+        <p>Softwere Engineering Student | Aspiring Full Stack Developer</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="projects.html">Projects</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="blog.html">Blog</a>
+    </nav>
+    <main>
+        <section  class="contact-card">
+            <h2>Contact Form</h2>
+            <p>Please fill out the form below to get in touch.</p>
+            <form action="#" method="post">
+            <!-- Personal Information Section -->
+            <fieldset>
+                <legend>Personal Information</legend>
+            
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <br><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Create a password" required>
+                <br><br>
+
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required>
+                <br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="18" max="100" placeholder="18-100" required>
+                <br><br>
+
+                <label for="birth">Date of Birth:</label>
+                <input type="date" id="birth" name="date_of_birth" required>
+                <br><br>
+
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="prefer_not" name="gender" value="prefer_not">
+                <label for="prefer_not">Prefer not to say</label>
+            </fieldset>
+            
+            <br><br>
+
+            <!-- Professional Information Section -->
+            <fieldset>
+                <legend>Professional Information</legend>
+                
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Indonesia">Indonesia</option>
+                </select>
+                <br><br>
+
+                <label>Programming Skills:</label>
+                <input type="checkbox" id="python" name="skills" value="Python">
+                <label for="python">Python</label>
+                <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+                <input type="checkbox" id="sql" name="skills" value="SQL">
+                <label for="sql">SQL</label>
+                <input type="checkbox" id="html_css" name="skills" value="HTML/CSS">
+                <label for="html_css">HTML/CSS</label>
+                <br><br>
+
+                <label>Experience Level:</label>
+                <input type="radio" id="beginner" name="experience" value="beginner" checked>
+                <label for="beginner">Beginner</label>
+                <input type="radio" id="intermediate" name="experience" value="intermediate">
+                <label for="intermediate">Intermediate</label>
+                <input type="radio" id="advanced" name="experience" value="advanced">
+                <label for="advanced">Advanced</label>
+                <br><br>
+            </fieldset>
+            
+            <br><br>
+
+            <!-- Additional Information Section -->
+            <fieldset>
+                <legend>Additional Information</legend>
+                
+                <label for="hear_about">How did you hear about us?</label>
+                <select id="hear_about" name="hear_about">
+                    <option value="social_media">Social Media</option>
+                    <option value="friends">Friends</option>
+                    <option value="google">Google</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here..."></textarea>
+                <br><br>
+
+                <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                <label for="newsletter">Subscribe to our newsletter</label>
+                <br><br>
+            </fieldset>
+            
+            <br><br>
+            
+            <!-- Submit Button -->
+            <button type="submit">Submit Form</button>
+            <button type="reset">Reset Form</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Muhammad Saayid Shah. All rights reserved.</p>
+        <p>Built with pure HTML | Project 4: Portfolio Website</p>
+    </footer>
+    
+</body>
+</html>

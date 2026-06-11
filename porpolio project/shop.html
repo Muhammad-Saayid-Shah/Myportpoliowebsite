@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Muhammad Saayid Shah">
+    <meta name="description" content="E-commerce product page - ProBook X1 Carbon Laptop with high performance and premium design">
+    <meta name="keywords" content="laptop, probook, computer, ecommerce, product">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Product Page - ProBook X1 Carbon</title>
+</head>
+<body>
+    <header>
+        <h1>Muhammad Saayid Shah</h1>
+        <p>Software Engineering Student | Aspiring Full Stack Developer & Data Scientist</p>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="projects.html">Projects</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="blog.html">Blog</a> |
+        <a href="shop.html">Shop</a>
+    </nav>
+    
+    <main>
+        <!-- Product Gallery Section -->
+        <section>
+            <h2>Product Gallery</h2>
+            
+            <!-- Main Product Image -->
+            <figure>
+                <img src="https://via.placeholder.com/500x400/2c3e50/white?text=ProBook+X1+Carbon" 
+                     alt="ProBook X1 Carbon Laptop - Main View" 
+                     width="500" 
+                     height="400">
+                <figcaption><strong>ProBook X1 Carbon</strong> - Ultra-slim professional laptop</figcaption>
+            </figure>
+            
+            <!-- Thumbnail Images -->
+            <h3>View Different Angles:</h3>
+            <a href="#"><img src="https://via.placeholder.com/80x60/3498db/white?text=Front" alt="Front view" width="80" height="60"></a>
+            <a href="#"><img src="https://via.placeholder.com/80x60/e74c3c/white?text=Side" alt="Side view" width="80" height="60"></a>
+            <a href="#"><img src="https://via.placeholder.com/80x60/27ae60/white?text=Back" alt="Back view" width="80" height="60"></a>
+            <a href="#"><img src="https://via.placeholder.com/80x60/f39c12/white?text=Open" alt="Open view" width="80" height="60"></a>
+            <p><small>Click on thumbnails to view different angles (demo)</small></p>
+        </section>
+        
+        <hr>
+        
+        <!-- Product Details Section -->
+        <section>
+            <h2>ProBook X1 Carbon Laptop</h2>
+            
+            <!-- Price -->
+            <p><strong>Price:</strong> <del>$1,499</del> <strong style="color: red;">$1,299</strong> <em>(Save $200!)</em></p>
+            
+            <!-- Rating -->
+            <p><strong>Rating:</strong> ★★★★☆ (4.5/5) | <strong>245 reviews</strong></p>
+            
+            <!-- Description -->
+            <h3>Description:</h3>
+            <p>The ProBook X1 Carbon is a premium ultrabook designed for professionals and students who need power, portability, and reliability. With its lightweight carbon fiber construction and powerful Intel Core i7 processor, this laptop delivers exceptional performance for coding, data analysis, and everyday productivity tasks.</p>
+            <p>Whether you're a software engineer, data scientist, or creative professional, the ProBook X1 Carbon provides the performance and battery life you need to stay productive all day long.</p>
+            
+            <!-- Variations Form -->
+            <h3>Customize Your Laptop:</h3>
+            <form action="#" method="post">
+                <!-- Color options (radio) -->
+                <fieldset>
+                    <legend><strong>Color Options:</strong></legend>
+                    <input type="radio" id="color_black" name="color" value="black" checked>
+                    <label for="color_black">⚫ Black Carbon</label>
+                    
+                    <input type="radio" id="color_silver" name="color" value="silver">
+                    <label for="color_silver">⚪ Silver</label>
+                    
+                    <input type="radio" id="color_blue" name="color" value="blue">
+                    <label for="color_blue">🔵 Navy Blue</label>
+                </fieldset>
+                <br>
+                
+                <!-- Storage options (select) -->
+                <label for="storage"><strong>Storage Capacity:</strong></label>
+                <select id="storage" name="storage">
+                    <option value="256gb">256GB SSD (+$0)</option>
+                    <option value="512gb" selected>512GB SSD (+$100)</option>
+                    <option value="1tb">1TB SSD (+$250)</option>
+                </select>
+                <br><br>
+                
+                <!-- RAM options (radio) -->
+                <fieldset>
+                    <legend><strong>RAM Options:</strong></legend>
+                    <input type="radio" id="ram_8gb" name="ram" value="8gb" checked>
+                    <label for="ram_8gb">8GB DDR5</label>
+                    
+                    <input type="radio" id="ram_16gb" name="ram" value="16gb">
+                    <label for="ram_16gb">16GB DDR5 (+$150)</label>
+                    
+                    <input type="radio" id="ram_32gb" name="ram" value="32gb">
+                    <label for="ram_32gb">32GB DDR5 (+$350)</label>
+                </fieldset>
+                <br>
+                
+                <!-- Warranty (checkbox) -->
+                <input type="checkbox" id="warranty" name="warranty" value="extended">
+                <label for="warranty"><strong>Add Extended Warranty (+$99)</strong> - 3 years coverage including accidental damage</label>
+                <br><br>
+                
+                <!-- Quantity (number input) -->
+                <label for="quantity"><strong>Quantity:</strong></label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+                <br><br>
+                
+                <!-- Add to Cart Button -->
+                <button type="submit">🛒 Add to Cart</button>
+                <button type="reset">Reset Selection</button>
+            </form>
+        </section>
+        
+        <hr>
+        
+        <!-- Product Specifications Table -->
+        <section>
+            <h2>📋 Product Specifications</h2>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr bgcolor="#f2f2f2">
+                        <th>Specification</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Processor</strong></td>
+                        <td>Intel Core i7-1355U (10 cores, up to 5.0 GHz)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Display</strong></td>
+                        <td>14" 2.8K OLED, 400 nits, 100% DCI-P3</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Graphics</strong></td>
+                        <td>Intel Iris Xe Graphics</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Memory</strong></td>
+                        <td>Up to 32GB LPDDR5 6400MHz</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Storage</strong></td>
+                        <td>Up to 1TB PCIe Gen 4 SSD</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Battery</strong></td>
+                        <td>57Wh, up to 12 hours of usage</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Weight</strong></td>
+                        <td>1.2 kg (2.65 lbs)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ports</strong></td>
+                        <td>2x Thunderbolt 4, 2x USB-A, HDMI, Headphone jack</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Operating System</strong></td>
+                        <td>Windows 11 Pro</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <hr>
+        
+        <!-- Customer Reviews Section -->
+        <section>
+            <h2>⭐ Customer Reviews</h2>
+            
+            <!-- Review 1 -->
+            <article>
+                <header>
+                    <p><strong>Ahmed Raza</strong> | <time datetime="2024-03-20">March 20, 2024</time></p>
+                    <p><strong>Rating:</strong> ★★★★★ (5/5)</p>
+                </header>
+                <p>Absolutely love this laptop! As a software engineering student, I needed something powerful enough to run multiple IDEs, virtual machines, and data analysis tools. The ProBook X1 handles everything smoothly. Battery life is impressive too - lasts my entire day of classes. Highly recommend!</p>
+                
+                <!-- Reply to Review 1 -->
+                <article>
+                    <header>
+                        <p><strong>ProBook Support</strong> | <time datetime="2024-03-21">March 21, 2024</time></p>
+                    </header>
+                    <p>Thank you Ahmed! We're glad to hear the ProBook X1 is serving you well for your software engineering studies. Happy coding! 💻</p>
+                </article>
+            </article>
+            
+            <hr>
+            
+            <!-- Review 2 -->
+            <article>
+                <header>
+                    <p><strong>Fatima Zafar</strong> | <time datetime="2024-03-18">March 18, 2024</time></p>
+                    <p><strong>Rating:</strong> ★★★★☆ (4/5)</p>
+                </header>
+                <p>Great laptop overall. The display is stunning - perfect for data visualization and coding. The only reason I'm giving 4 stars is that the webcam quality could be better for video calls. Otherwise, build quality is excellent and it's incredibly lightweight.</p>
+                
+                <!-- Reply to Review 2 -->
+                <article>
+                    <header>
+                        <p><strong>ProBook Support</strong> | <time datetime="2024-03-19">March 19, 2024</time></p>
+                    </header>
+                    <p>Thank you for your honest feedback Fatima! We appreciate your input about the webcam. We're constantly working to improve our products. Glad you're enjoying the display quality!</p>
+                </article>
+            </article>
+            
+            <hr>
+            
+            <!-- Review 3 -->
+            <article>
+                <header>
+                    <p><strong>Usman Khalid</strong> | <time datetime="2024-03-15">March 15, 2024</time></p>
+                    <p><strong>Rating:</strong> ★★★★★ (5/5)</p>
+                </header>
+                <p>Perfect for data science work! I run Python, Jupyter notebooks, and large datasets with no issues. The 16GB RAM option is worth every penny. Keyboard is comfortable for long coding sessions. Best investment for my career!</p>
+                
+                <!-- Reply to Review 3 -->
+                <article>
+                    <header>
+                        <p><strong>Muhammad Saayid Shah</strong> | <time datetime="2024-03-16">March 16, 2024</time></p>
+                    </header>
+                    <p>Great to hear Usman! I'm also planning to use this for data science work. Thanks for sharing your experience! 🚀</p>
+                </article>
+            </article>
+            
+            <br>
+            
+            <!-- Expandable Review Form -->
+            <details>
+                <summary><strong>✍️ Write a Review</strong></summary>
+                <form action="#" method="post">
+                    <label for="review_name">Name:</label>
+                    <input type="text" id="review_name" name="review_name" required>
+                    <br><br>
+                    
+                    <label for="review_email">Email:</label>
+                    <input type="email" id="review_email" name="review_email" required>
+                    <br><br>
+                    
+                    <label><strong>Rating:</strong></label>
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">★★★★★</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">★★★★☆</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">★★★☆☆</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">★★☆☆☆</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">★☆☆☆☆</label>
+                    <br><br>
+                    
+                    <label for="review_text">Your Review:</label>
+                    <textarea id="review_text" name="review_text" rows="5" cols="50" placeholder="Share your experience with this product..." required></textarea>
+                    <br><br>
+                    
+                    <button type="submit">Submit Review</button>
+                </form>
+            </details>
+        </section>
+        
+        <hr>
+        
+        <!-- Related Products Grid -->
+        <section>
+            <h2>🛍️ You May Also Like</h2>
+            
+            <table border="0" cellpadding="15">
+                <tr align="center">
+                    <!-- Product 1 -->
+                    <td>
+                        <figure>
+                            <img src="https://via.placeholder.com/200x150/3498db/white?text=ProBook+X1+Lite" alt="ProBook X1 Lite" width="200" height="150">
+                            <figcaption><strong>ProBook X1 Lite</strong></figcaption>
+                        </figure>
+                        <p><del>$899</del> <strong>$799</strong></p>
+                        <a href="#">View Details</a>
+                    </td>
+                    
+                    <!-- Product 2 -->
+                    <td>
+                        <figure>
+                            <img src="https://via.placeholder.com/200x150/e74c3c/white?text=Ultra+Monitor" alt="Ultra 4K Monitor" width="200" height="150">
+                            <figcaption><strong>Ultra 4K Monitor</strong></figcaption>
+                        </figure>
+                        <p><del>$499</del> <strong>$399</strong></p>
+                        <a href="#">View Details</a>
+                    </td>
+                    
+                    <!-- Product 3 -->
+                    <td>
+                        <figure>
+                            <img src="https://via.placeholder.com/200x150/27ae60/white?text=Wireless+Mouse" alt="Pro Wireless Mouse" width="200" height="150">
+                            <figcaption><strong>Pro Wireless Mouse</strong></figcaption>
+                        </figure>
+                        <p><del>$79</del> <strong>$49</strong></p>
+                        <a href="#">View Details</a>
+                    </td>
+                    
+                    <!-- Product 4 -->
+                    <td>
+                        <figure>
+                            <img src="https://via.placeholder.com/200x150/f39c12/white?text=Laptop+Stand" alt="Laptop Stand" width="200" height="150">
+                            <figcaption><strong>Laptop Stand</strong></figcaption>
+                        </figure>
+                        <p><del>$59</del> <strong>$39</strong></p>
+                        <a href="#">View Details</a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        
+        <hr>
+        
+        <!-- Expandable Information Sections -->
+        <section>
+            <details>
+                <summary><strong>📦 Shipping Information</strong></summary>
+                <p><strong>Free Shipping:</strong> Free standard shipping on all orders over $500. Delivery within 3-5 business days.</p>
+                <p><strong>Express Shipping:</strong> $19.99 - Delivery within 1-2 business days.</p>
+                <p><strong>International Shipping:</strong> Available to select countries. Delivery time varies by location.</p>
+            </details>
+            
+            <br>
+            
+            <details>
+                <summary><strong>🔄 Return Policy</strong></summary>
+                <p><strong>30-Day Return Policy:</strong> If you're not completely satisfied with your purchase, you can return it within 30 days for a full refund. Product must be in original condition with all accessories.</p>
+                <p><strong>Free Returns:</strong> Free return shipping on all orders within the continental US.</p>
+            </details>
+            
+            <br>
+            
+            <details>
+                <summary><strong>🔧 Warranty Information</strong></summary>
+                <p><strong>Standard Warranty:</strong> 1-year limited warranty covering manufacturing defects.</p>
+                <p><strong>Extended Warranty:</strong> Optional 3-year coverage with accidental damage protection (available at checkout).</p>
+            </details>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Muhammad Saayid Shah. All rights reserved.</p>
+        <p>Built with pure HTML | Project 6: E-Commerce Product Page</p>
+        <p>📧 Contact: saayid@example.com | 🌐 Follow me on <a href="#">GitHub</a> | <a href="#">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
