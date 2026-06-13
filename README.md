@@ -38,5 +38,5 @@ A clean, simple prototype website built for [purpose of your site - e.g., portfo
 
 ## Getting Started
 
-1. Clone the repository: 
+1. Clone the repository: https://muhammad-saayid-shah.github.io/Myportpoliowebsite/porpolio%20project/
 
